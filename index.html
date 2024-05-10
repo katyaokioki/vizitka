@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя визитка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Вяткина Екатерина</h1>
+        <p>Веб-разработчик</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
+            <li><a href="#contact">Контакты</a></li>
+            <li><button onclick="changeLanguage()">Switch Language</button></li>
+        </ul>
+    </nav>
+    <section class='about' id="about">
+        <h2>Обо мне</h2>
+        <p>Привет! Я - Катя Вяткина, frontend-разработчик с опытом работы более пяти лет. Мое увлечение веб-разработкой началось еще во время учебы, когда я создавала первые свои сайты. С тех пор я преуспела в этой области и разработала множество проектов для различных компаний и стартапов.
+
+            Я стремлюсь создавать современные, интуитивно понятные и эстетически привлекательные интерфейсы, которые обеспечивают отличный пользовательский опыт. Моя основная цель - помогать клиентам достигать своих целей через веб-технологии.</p>
+        <div class="me">
+            <img src="/img/котик.jpg" alt="me">
+        </div>
+        <div class="about ulta">
+            <h2>Мои навыки</h2>
+            <ul class="list">
+                <li>Владение HTML, CSS, JavaScript</li>
+                <li>Опыт работы с фреймворками: React.js, Vue.js</li>
+                <li>Знание препроцессоров CSS: Sass, Less</li>
+                <li>Уверенное владение инструментами верстки: Bootstrap, MaterializeCSS</li>
+                <li>Опыт работы с системами контроля версий: Git</li>
+                <li>Знание основ SEO и адаптивной веб-разработки</li>
+            </ul>
+        </div>
+    
+    </section>
+    <section id="portfolio">
+        <h2>Портфолио</h2>
+        <div class="portfolio-item">
+            <img src="portfolio1.jpg" alt="Проект 1">
+            <p>Описание проекта 1</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="portfolio2.jpg" alt="Проект 2">
+            <p>Описание проекта 2</p>
+        </div>
+    </section>
+    <section class= 'contact' id="contact">
+        <div class="wrapper">
+            <h2>Контакты</h2>
+            <div class="contact_list">
+                <a href="tel:123456789"><img src='/img/телефон.png' alt='98898989' style="width: 100px; height: 100px;"></a>
+                <a href="tel:123456789"><img src="/img/телеграмм.png" alt ='hhghgj' style="width: 100px; height: 100px;"></a>
+                <a href="kitkatik"><img src='/img/письмо .png' alt='' style="width: 100px; height: 100px;"></a>
+            </div>
+        </div>
+        
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
